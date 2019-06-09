@@ -2,8 +2,7 @@
 Create a corpus by downloading all wikipedia pages for a given language.
 
 ## Requirements
-1. Numpy 
-2. [Wikipedia API](https://github.com/martin-majlis/Wikipedia-API)
+1. [Wikipedia API](https://github.com/martin-majlis/Wikipedia-API)
 
 ## Instructions to download (Dutch) wiki corpus
 1. Download `nlwiki-latest-all-titles-in-ns0.gz` from https://dumps.wikimedia.org/nlwiki/latest/.
