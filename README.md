@@ -5,7 +5,10 @@ Creates a corpus by downloading all wikipedia pages for a given language. The py
 1. [Wikipedia API](https://github.com/martin-majlis/Wikipedia-API)
 
 ## Instructions
-1. For Dutch corpus: download `nlwiki-latest-all-titles-in-ns0.gz` from https://dumps.wikimedia.org/nlwiki/latest/ (replace 'nlwiki' according to preferred language).
+1.Download `{language}wiki-latest-all-titles-in-ns0.gz` (and not `{language}wiki-latest-all-titles.gz`!) according to the preferred language, e.g.: 
+* Dutch corpus: download `nlwiki-latest-all-titles-in-ns0.gz` from https://dumps.wikimedia.org/nlwiki/latest/
+* English corpus: download `enwiki-latest-all-titles-in-ns0.gz` from https://dumps.wikimedia.org/enwiki/latest/
+
 2. Run `build_wiki_corpus_by_all_titles.py --titles <file> --output_dir <directory>`
 
 Optional arguments:
