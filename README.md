@@ -1,5 +1,5 @@
 # Wiki-scraper
-Create a corpus by downloading all wikipedia pages for a given language.
+Create a corpus by downloading all wikipedia pages for a given language. The python library 'Wikipedia API' is used to extract the information for each wiki-page by usage of function `wikipediaapi.Wikipedia(language).page(title).text`.
 
 ## Requirements
 1. [Wikipedia API](https://github.com/martin-majlis/Wikipedia-API)
@@ -13,6 +13,8 @@ Optional arguments:
 * `--eop_token` token appended at the end of each page (default='<|endofpage|>').
 * `--sleep` amount of time in seconds to sleep between each request to Wikipedia API (default=0.05).
 * `--include_page_title` to indicate whether the page title should be included (default=True).
+
+This script produces another file named 'counter.txt' in which it keeps track of the pages it processed. 
 
 ## Split titles into separate files
 To distribute the download process of wiki-pages across multiple devices, you can use `split_titles.py`. For example, if you want each file to hold 500000 titles, run the script as follows: 
