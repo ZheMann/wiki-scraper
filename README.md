@@ -1,5 +1,5 @@
 # Wiki-scraper
-Create a corpus by downloading all wikipedia pages for a given language. The python library 'Wikipedia API' is used to extract the information for each wiki-page by usage of function `wikipediaapi.Wikipedia(language).page(title).text`.
+Creates a corpus by downloading all wikipedia pages for a given language. The python library 'Wikipedia API' is used to extract the information for each wiki-page by usage of function `wikipediaapi.Wikipedia(language).page(title).text`.
 
 ## Requirements
 1. [Wikipedia API](https://github.com/martin-majlis/Wikipedia-API)
