@@ -23,3 +23,9 @@ This script produces another file named 'counter.txt' in which it keeps track of
 To distribute the download process of wiki-pages across multiple devices, you can use `split_titles.py`. For example, if you want each file to hold 500000 titles, run the script as follows: 
 
 `split_titles.py <*.gz-file> <outputdir> 500000`
+
+## Utility 
+In the utility directory some additional python-scripts can be found for pre-processing. 
+
+## Disclaimer
+This script is not perfect. If you find any bugs, please create an issue. 
