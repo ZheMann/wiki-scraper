@@ -5,7 +5,7 @@ Create a corpus by downloading all wikipedia pages for a given language.
 1. [Wikipedia API](https://github.com/martin-majlis/Wikipedia-API)
 
 ## Instructions
-1. Download `nlwiki-latest-all-titles-in-ns0.gz` from https://dumps.wikimedia.org/nlwiki/latest/ (for Dutch corpus).
+1. For Dutch corpus: download `nlwiki-latest-all-titles-in-ns0.gz` from https://dumps.wikimedia.org/nlwiki/latest/ (replace 'nlwiki' according to preferred language).
 2. Run `build_wiki_corpus_by_all_titles.py --titles <file> --output_dir <directory>`
 
 Optional arguments:
@@ -17,4 +17,4 @@ Optional arguments:
 ## Split titles into separate files
 To distribute the download process of wiki-pages across multiple devices, you can use `split_titles.py`. For example, if you want each file to hold 500000 titles, run the script as follows: 
 
-`split_titles.py titles/nlwiki-latest-all-titles-in-ns0.gz <outputdir> 500000`
+`split_titles.py <*.gz-file> <outputdir> 500000`
