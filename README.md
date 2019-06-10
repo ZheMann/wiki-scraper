@@ -3,6 +3,7 @@ Creates a corpus by downloading all wikipedia pages for a given language. The py
 
 ## Requirements
 1. [Wikipedia API](https://github.com/martin-majlis/Wikipedia-API)
+2. Numpy
 
 ## Instructions
 1.Download `{language}wiki-latest-all-titles-in-ns0.gz` (and not `{language}wiki-latest-all-titles.gz`!) according to the preferred language, e.g.: 
